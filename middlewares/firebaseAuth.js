@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.firebaseAuth = void 0;
-const firebase_1 = require("../utils/firebase");
+const firebase_1 = require("../../utils/firebase");
 const prismaClient_1 = __importDefault(require("../models/prismaClient"));
 const firebaseAuth = async (req, res, next) => {
     // 1️⃣ Extrair token
